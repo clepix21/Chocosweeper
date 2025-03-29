@@ -32,6 +32,12 @@ namespace Chocosweeper.UI
 
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // MainForm
+            // 
+            this.MaximizeBox = false;
+            this.Name = "MainForm";
+            this.ResumeLayout(false);
 
             // menuStrip1
             this.menuStrip1.Items.AddRange(new ToolStripItem[] { this.jeuToolStripMenuItem });
