@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8529DDF7-B7F3-4D61-98ED-5AFB048590C5}</ProjectGuid>
+    <ProjectGuid>{0C21A6E3-4228-4300-BBA5-78F875965D22}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Chocosweeper.UI</RootNamespace>
     <AssemblyName>Chocosweeper.UI</AssemblyName>
@@ -46,37 +46,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="C:/Users/Clément/source/repos/clepix21/Chocosweeper/Chocosweeper.UI/\MainForm.designer.cs">
-      <Link>MainForm.designer.cs</Link>
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ConfigForm.cs">
+    <Compile Include="Forms\DialogueMeilleursScores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ConfigForm.Designer.cs">
-      <DependentUpon>ConfigForm.cs</DependentUpon>
+    <Compile Include="Forms\DialogueSaisie.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="Forms\FormulairePrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\DialogueParametres.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\FormulairePrincipal.resx">
+      <DependentUpon>FormulairePrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -87,10 +87,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Chocosweeper.System\Chocosweeper.System.csproj">
-      <Project>{d60c0829-689e-4ee0-99d6-883e84e781d2}</Project>
-      <Name>Chocosweeper.System</Name>
+    <ProjectReference Include="..\Chocosweeper.Core\Chocosweeper.Core.csproj">
+      <Project>{8f3ee1f7-c164-4ae8-a9bc-565c7da837b7}</Project>
+      <Name>Chocosweeper.Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Chocosweeper.Data\Chocosweeper.Data.csproj">
+      <Project>{aa473980-b79d-44c7-98da-2936dfdbe5a1}</Project>
+      <Name>Chocosweeper.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

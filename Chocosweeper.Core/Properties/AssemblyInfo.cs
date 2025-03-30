@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Les informations générales relatives à un assembly dépendent de
 // l'ensemble d'attributs suivant. Changez les valeurs de ces attributs pour modifier les informations
 // associées à un assembly.
-[assembly: AssemblyTitle("Chocosweeper.UI")]
+[assembly: AssemblyTitle("Chocosweeper.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Chocosweeper.UI")]
+[assembly: AssemblyProduct("Chocosweeper.Core")]
 [assembly: AssemblyCopyright("Copyright ©  2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
-[assembly: Guid("0c21a6e3-4228-4300-bba5-78f875965d22")]
+[assembly: Guid("8f3ee1f7-c164-4ae8-a9bc-565c7da837b7")]
 
 // Les informations de version pour un assembly se composent des quatre valeurs suivantes :
 //

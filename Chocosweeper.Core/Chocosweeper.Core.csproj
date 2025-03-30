@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D60C0829-689E-4EE0-99D6-883E84E781D2}</ProjectGuid>
+    <ProjectGuid>{8F3EE1F7-C164-4AE8-A9BC-565C7DA837B7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Chocosweeper.System</RootNamespace>
-    <AssemblyName>Chocosweeper.System</AssemblyName>
+    <RootNamespace>Chocosweeper.Core</RootNamespace>
+    <AssemblyName>Chocosweeper.Core</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,8 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Case.cs" />
-    <Compile Include="Tableau.cs" />
+    <Compile Include="Controllers\ControlleurJeu.cs" />
+    <Compile Include="Models\Cellule.cs" />
+    <Compile Include="Models\PlateauDeJeu.cs" />
+    <Compile Include="Models\ConfigurationJeu.cs" />
+    <Compile Include="Models\EtatJeu.cs" />
+    <Compile Include="Models\Score.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
