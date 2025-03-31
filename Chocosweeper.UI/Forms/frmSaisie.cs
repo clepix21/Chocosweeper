@@ -7,7 +7,7 @@ namespace Chocosweeper.UI.Formulaires
     /// <summary>
     /// Dialogue pour obtenir une saisie de l'utilisateur
     /// </summary>
-    public partial class DialogueSaisie : Form
+    public partial class frmSaisie : Form
     {
         /// <summary>
         /// Zone de texte pour la saisie
@@ -34,7 +34,7 @@ namespace Chocosweeper.UI.Formulaires
         /// </summary>
         /// <param name="titre">Titre du dialogue</param>
         /// <param name="invite">Texte d'invite</param>
-        public DialogueSaisie(string titre, string invite)
+        public frmSaisie(string titre, string invite)
         {
             InitializeComponent();
             InitialiserUI(titre, invite);

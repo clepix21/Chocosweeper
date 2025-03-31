@@ -17,7 +17,7 @@ namespace Chocosweeper.UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormulairePrincipal());
+            Application.Run(new frmJeu());
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Chocosweeper.UI.Formulaires
     /// <summary>
     /// Dialogue pour configurer les paramètres du jeu
     /// </summary>
-    public partial class DialogueParametres : Form
+    public partial class frmParametres : Form
     {
         /// <summary>
         /// Configuration actuelle du jeu
@@ -63,7 +63,7 @@ namespace Chocosweeper.UI.Formulaires
         /// Crée un nouveau dialogue de paramètres
         /// </summary>
         /// <param name="configuration">Configuration actuelle du jeu</param>
-        public DialogueParametres(ConfigurationJeu configuration)
+        public frmParametres(ConfigurationJeu configuration)
         {
             InitializeComponent();
             Configuration = configuration;

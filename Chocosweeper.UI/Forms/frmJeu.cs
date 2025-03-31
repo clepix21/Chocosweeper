@@ -11,7 +11,7 @@ namespace Chocosweeper.UI.Formulaires
     /// <summary>
     /// Formulaire principal de l'application
     /// </summary>
-    public partial class FormulairePrincipal : Form
+    public partial class frmJeu : Form
     {
         /// <summary>
         /// Contrôleur de jeu
@@ -76,7 +76,7 @@ namespace Chocosweeper.UI.Formulaires
         /// <summary>
         /// Crée un nouveau formulaire principal
         /// </summary>
-        public FormulairePrincipal()
+        public frmJeu()
         {
             InitializeComponent();
             InitialiserDepots();
@@ -283,7 +283,7 @@ namespace Chocosweeper.UI.Formulaires
                         Size = new Size(TailleCellule, TailleCellule),
                         Location = new Point(col * TailleCellule, ligne * TailleCellule),
                         Tag = new Point(ligne, col),
-                        BackColor = Color.LightGray,
+                        BackColor = Color.White,
                         FlatStyle = FlatStyle.Popup
                     };
 
@@ -431,7 +431,7 @@ namespace Chocosweeper.UI.Formulaires
             {
                 // Demander le nom du joueur
                 string nomJoueur = "Joueur";
-                using (var dialogue = new DialogueSaisie("Meilleur Score", "Entrez votre nom :"))
+                using (var dialogue = new frmSaisie("Meilleur Score", "Entrez votre nom :"))
                 {
                     if (dialogue.ShowDialog() == DialogResult.OK)
                     {
@@ -547,7 +547,7 @@ namespace Chocosweeper.UI.Formulaires
         /// </summary>
         private void BoutonParametres_Click(object sender, EventArgs e)
         {
-            using (var dialogue = new DialogueParametres(_controlleurJeu.Configuration))
+            using (var dialogue = new frmParametres(_controlleurJeu.Configuration))
             {
                 if (dialogue.ShowDialog() == DialogResult.OK)
                 {

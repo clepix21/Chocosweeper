@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\ControlleurJeu.cs" />
+    <Compile Include="ControlleurJeu.cs" />
     <Compile Include="Models\Cellule.cs" />
     <Compile Include="Models\PlateauDeJeu.cs" />
     <Compile Include="Models\ConfigurationJeu.cs" />
