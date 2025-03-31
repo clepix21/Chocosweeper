@@ -2,7 +2,7 @@ using System;
 using System.IO;
 using System.Text.Json;
 
-namespace Chocosweeper.Data.Depots
+namespace Chocosweeper.Data
 {
     /// <summary>
     /// Dépôt pour gérer les configurations du jeu

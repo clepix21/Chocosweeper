@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.Json;
 using Chocosweeper.Core.Modeles;
 
-namespace Chocosweeper.Data.Depots
+namespace Chocosweeper.Data
 {
     /// <summary>
     /// Dépôt pour gérer les scores du jeu

@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Windows.Forms;
 using Chocosweeper.Core.Controlleurs;
 using Chocosweeper.Core.Modeles;
-using Chocosweeper.Data.Depots;
+using Chocosweeper.Data;
 
 namespace Chocosweeper.UI.Forms
 {
