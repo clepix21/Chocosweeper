@@ -364,7 +364,7 @@ namespace Chocosweeper.UI.Formulaires
             {
                 // La cellule n'est ni révélée ni marquée
                 boutonCellule.Image = null;
-                boutonCellule.BackColor = Color.LightGray;
+                boutonCellule.BackColor = Color.White;
             }
         }
 
