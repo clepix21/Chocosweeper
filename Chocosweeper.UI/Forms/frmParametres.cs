@@ -76,14 +76,13 @@ namespace Chocosweeper.UI.Formulaires
         /// </summary>
         private void InitialiserUI()
         {
-            // Définir les propriétés du formulaire
             Text = "Paramètres du Jeu";
             FormBorderStyle = FormBorderStyle.FixedDialog;
             MaximizeBox = false;
             MinimizeBox = false;
             ShowInTaskbar = false;
             StartPosition = FormStartPosition.CenterParent;
-            ClientSize = new System.Drawing.Size(300, 250);
+            ClientSize = new System.Drawing.Size(300, 300);
 
             // Créer les contrôles
             _boutonRadioDebutant = new RadioButton
