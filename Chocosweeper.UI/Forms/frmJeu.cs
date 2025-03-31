@@ -572,7 +572,7 @@ namespace Chocosweeper.UI.Formulaires
         /// </summary>
         private void AfficherMeilleursScores()
         {
-            using (var dialogue = new DialogueMeilleursScores(_depotScores, _controlleurJeu.Configuration))
+            using (var dialogue = new frmMilleursScores(_depotScores, _controlleurJeu.Configuration))
             {
                 dialogue.ShowDialog();
             }

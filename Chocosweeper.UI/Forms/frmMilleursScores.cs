@@ -10,7 +10,7 @@ namespace Chocosweeper.UI.Formulaires
     /// <summary>
     /// Dialogue pour afficher les meilleurs scores
     /// </summary>
-    public partial class DialogueMeilleursScores : Form
+    public partial class frmMilleursScores : Form
     {
         /// <summary>
         /// Dépôt de scores
@@ -37,7 +37,7 @@ namespace Chocosweeper.UI.Formulaires
         /// </summary>
         /// <param name="depotScores">Dépôt de scores</param>
         /// <param name="configuration">Configuration actuelle du jeu</param>
-        public DialogueMeilleursScores(DepotScores depotScores, ConfigurationJeu configuration)
+        public frmMilleursScores(DepotScores depotScores, ConfigurationJeu configuration)
         {
             InitializeComponent();
             _depotScores = depotScores;
