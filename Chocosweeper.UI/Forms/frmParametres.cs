@@ -2,7 +2,7 @@ using System;
 using System.Windows.Forms;
 using Chocosweeper.Core.Modeles;
 
-namespace Chocosweeper.UI.Formulaires
+namespace Chocosweeper.UI.Forms
 {
     /// <summary>
     /// Dialogue pour configurer les paramètres du jeu

@@ -6,7 +6,7 @@ using Chocosweeper.Core.Controlleurs;
 using Chocosweeper.Core.Modeles;
 using Chocosweeper.Data.Depots;
 
-namespace Chocosweeper.UI.Formulaires
+namespace Chocosweeper.UI.Forms
 {
     /// <summary>
     /// Formulaire principal de l'application

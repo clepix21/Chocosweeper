@@ -1,6 +1,6 @@
 using System;
 using System.Windows.Forms;
-using Chocosweeper.UI.Formulaires;
+using Chocosweeper.UI.Forms;
 
 namespace Chocosweeper.UI
 {

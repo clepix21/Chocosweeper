@@ -5,7 +5,7 @@ using System.Windows.Forms;
 using Chocosweeper.Core.Modeles;
 using Chocosweeper.Data.Depots;
 
-namespace Chocosweeper.UI.Formulaires
+namespace Chocosweeper.UI.Forms
 {
     /// <summary>
     /// Dialogue pour afficher les meilleurs scores
